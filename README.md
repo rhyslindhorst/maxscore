@@ -7,7 +7,7 @@
 - **Date:** [Date of Completion]
 
 ## Program Description
-[Write 2-3 sentences in your own words describing what this script does and its purpose. Explain the problem it solves and how it works at a high level.]
+The program takes in five positive integers from the user. The program then determines which score out of the five is the greatest. The program then prints out the highest score inputed back to the user. The program finally prints the difference between all five of the positive integers inputed and the highest integer score. 
 
 ## Usage
 To run the script interactively:
@@ -21,10 +21,7 @@ To test with the provided input file:
 ```
 
 ## How the Script Works
-[Explain in 3-5 sentences how your script works. Include information about:]
-- How you read and store numbers in an array
-- How you loop through the array to find the maximum value
-- How you calculate and display the difference between each score and the highest
+The code uses three different for loops. The first, to take five of the user input integers and stores them into the array: score. The second for loop determines the highest integer score inputed by the user by comparing the integers against each other. The third for loop determines the difference between the highest score and the other integers. I used a -read to store the integers inputed by the user into the array inside the first for loop. I used indexing to loop through the integers that were stored inside the array. To calculate and display the difference between the highest score and each score I indexed through the array and subtracted that index value from the max value to find the difference.
 
 ## Testing Results
 [Describe your testing process and results. Include:]

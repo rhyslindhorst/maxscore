@@ -1,6 +1,7 @@
 #!/bin/bash
 #Rhys Lindhorst
 #CPSC 298 Intro to Nix
+declare -a score
 
 echo "Enter 5 scores:"
 for i in {0..4}; do
